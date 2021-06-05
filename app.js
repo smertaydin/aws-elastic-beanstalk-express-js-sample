@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
 	const input1 = body.input1 || 0;
 	// noinspection JSUnresolvedVariable
 	const input2 = body.input2 || 0;
-	const output = input1 - input2;
+	const output = input1 + input2;
 
 	const response = {
 		statusCode: 200,
